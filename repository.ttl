@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix schema1: <http://schema.org/> .
+
+<./> a schema1:CreativeWork ;
+    schema1:hasPart [ a schema1:ItemList ;
+            schema1:isPartOf <./> ;
+            schema1:itemListElement <https://cedricdcc.github.io/test-profile-repository/test/data/a-profile.json>,
+                <https://cedricdcc.github.io/test-profile-repository/test/data/bas-c-profile.json>,
+                <https://cedricdcc.github.io/test-profile-repository/test/data/basic-profile.json>,
+                <https://cedricdcc.github.io/test-profile-repository/test/data/test-profile-missing-metadata.json> ;
+            schema1:name "registry of all profiles" ] .
+
+<https://cedricdcc.github.io/test-profile-repository/test/data/README.md> a schema1:MediaObject .
+
+<https://cedricdcc.github.io/test-profile-repository/test/data/a-profile.json> a schema1:CreativeWork,
+        schema1:ListItem,
+        prof:Profile ;
+    dct:conformsTo <https://w3id.org/ro/crate/1.1> ;
+    schema1:about <https://cedricdcc.github.io/test-profile-repository/test/data/> ;
+    schema1:author "Kendrick Lemarenostrum" ;
+    schema1:description "test repo for test profile" ;
+    schema1:item <https://cedricdcc.github.io/test-profile-repository/test/data/a-profile.json> ;
+    schema1:keywords "correct",
+        "profile",
+        "test" ;
+    schema1:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema1:name "test profile A" ;
+    schema1:version "1.0.0" .
+
+<https://cedricdcc.github.io/test-profile-repository/test/data/bas-c-profile.json> a schema1:CreativeWork,
+        schema1:ListItem,
+        prof:Profile ;
+    dct:conformsTo <https://w3id.org/ro/crate/1.1> ;
+    schema1:about <https://cedricdcc.github.io/test-profile-repository/test/data/> ;
+    schema1:author "Decruw Cedric" ;
+    schema1:description "test repo for test profile" ;
+    schema1:item <https://cedricdcc.github.io/test-profile-repository/test/data/bas-c-profile.json> ;
+    schema1:keywords "correct",
+        "profile",
+        "test" ;
+    schema1:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema1:name "test profile" ;
+    schema1:version "1.0.0" .
+
+<https://cedricdcc.github.io/test-profile-repository/test/data/basic-profile.json> a schema1:CreativeWork,
+        schema1:ListItem,
+        prof:Profile ;
+    dct:conformsTo <https://w3id.org/ro/crate/1.1> ;
+    schema1:about <https://cedricdcc.github.io/test-profile-repository/test/data/> ;
+    schema1:author "Decruw Cedric" ;
+    schema1:description "test repo for test profile" ;
+    schema1:item <https://cedricdcc.github.io/test-profile-repository/test/data/basic-profile.json> ;
+    schema1:keywords "correct",
+        "profile",
+        "test" ;
+    schema1:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema1:name "test profile" ;
+    schema1:version "1.0.0" .
+
+<https://cedricdcc.github.io/test-profile-repository/test/data/test-profile-missing-metadata.json> a schema1:CreativeWork,
+        schema1:ListItem,
+        prof:Profile ;
+    dct:conformsTo <https://w3id.org/ro/crate/1.1> ;
+    schema1:about <https://cedricdcc.github.io/test-profile-repository/test/data/> ;
+    schema1:author "Decruw Cedric" ;
+    schema1:item <https://cedricdcc.github.io/test-profile-repository/test/data/test-profile-missing-metadata.json> ;
+    schema1:license <https://creativecommons.org/licenses/by/4.0/> .
+
+<https://cedricdcc.github.io/test-profile-repository/test/data/> a schema1:Dataset,
+        prof:Profile ;
+    schema1:author "Kendrick Lemarenostrum" ;
+    schema1:description "test repo for test profile" ;
+    schema1:hasPart <https://cedricdcc.github.io/test-profile-repository/test/data/README.md> ;
+    schema1:keywords "correct",
+        "profile",
+        "test" ;
+    schema1:license <https://creativecommons.org/licenses/by/4.0/> ;
+    schema1:name "test profile A" ;
+    schema1:version "1.0.0" .
+
