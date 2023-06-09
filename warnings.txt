@@ -1,12 +1,4 @@
-2023-06-09 12:29:31,732 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: AlainProvist
-2023-06-09 12:29:31,732 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Lora Velle
-2023-06-09 12:29:31,732 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Marc Portier
-2023-06-09 12:29:31,733 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Someone
-2023-06-09 12:29:31,733 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Wokey
-2023-06-09 12:29:31,733 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: deepsearch
-2023-06-09 12:29:31,733 - WARNING - utils.build_registry  - Contact AlainProvist is not valid
-2023-06-09 12:29:31,733 - WARNING - utils.build_registry  - Contact Lora Velle is not valid
-2023-06-09 12:29:31,733 - WARNING - utils.build_registry  - Contact Marc Portier is not valid
-2023-06-09 12:29:31,733 - WARNING - utils.build_registry  - Contact Someone is not valid
-2023-06-09 12:29:31,733 - WARNING - utils.build_registry  - Contact Wokey is not valid
-2023-06-09 12:29:31,733 - WARNING - utils.build_registry  - Contact deepsearch is not valid
+2023-06-09 12:47:57,387 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: AlainProvist
+2023-06-09 12:47:57,387 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Lora Velle
+2023-06-09 12:47:57,388 - WARNING - utils.build_registry  - Contact AlainProvist is not valid
+2023-06-09 12:47:57,388 - WARNING - utils.build_registry  - Contact Lora Velle is not valid
