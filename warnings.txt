@@ -1,4 +1,2 @@
-2023-06-09 12:47:57,387 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: AlainProvist
-2023-06-09 12:47:57,387 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Lora Velle
-2023-06-09 12:47:57,388 - WARNING - utils.build_registry  - Contact AlainProvist is not valid
-2023-06-09 12:47:57,388 - WARNING - utils.build_registry  - Contact Lora Velle is not valid
+2023-06-09 12:48:18,750 - WARNING - utils.contact  - Contact is neither a mail nor an orcid: Lora Velle
+2023-06-09 12:48:19,193 - WARNING - utils.build_registry  - Contact Lora Velle is not valid
