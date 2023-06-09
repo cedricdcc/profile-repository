@@ -1,5 +1,5 @@
 URI,contact
-https://cedricdcc.github.io/test-profile-repository/test/data/basic-profile.json,Marc Portier
-https://cedricdcc.github.io/test-profile-repository/test/data/test-profile-missing-metadata.json,Someone
-https://github.com/cedricdcc/test-profile-repository/tree/main/test/data, Wokey
-https://cedricdcc.github.io/test_single_rocrate/latest, deepsearch
+https://cedricdcc.github.io/test-profile-repository/test/data/basic-profile.json,https://orcid.org/0000-0002-9648-6484
+https://cedricdcc.github.io/test-profile-repository/test/data/test-profile-missing-metadata.json,alain_provist@kek.org
+https://github.com/cedricdcc/test-profile-repository/tree/main/test/data, https://orcid.org/0000-0001-7414-8743
+https://cedricdcc.github.io/test_single_rocrate/latest,https://orcid.org/0000-0001-7414-8743
